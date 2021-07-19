@@ -12,10 +12,10 @@ function AppRouter() {
         <Router>
             <Switch>
                {/* < Header/> */}
-        <Route exact path = "/" component = {Home}/>
+        {/* <Route exact path = "/" component = {Home}/>
         <Route exact path = "/about" component = {About}/>
-        <Route exact path = "/contact" component = {Contact}/>
-        <Route exact path = "/:username" component = {Profile}/>
+        <Route exact path = "/contact" component = {Contact}/> */}
+        <Route exact path = "/:username/:id" component = {Profile}/>
         </Switch>
         </Router>
     )
